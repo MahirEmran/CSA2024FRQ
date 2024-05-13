@@ -1,4 +1,4 @@
-package Location;
+
 public class Location
 {
 private int theRow;
