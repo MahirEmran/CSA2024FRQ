@@ -1,4 +1,4 @@
-import Location.Location;
+
 public class GridPath
 {
 /** Initialized in the constructor with distinct values that never change */
