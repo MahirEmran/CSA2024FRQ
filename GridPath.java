@@ -35,7 +35,7 @@ private int[][] grid;
 */
     public int sumPath(int row, int col) {
         int sum = 0;
-        while(row != grid.length-1 && col != grid[0].length-1) {
+        while(row != grid.length-1 || col != grid[0].length-1) {
             sum += grid[row][col];
             Location l = getNextLoc(row, col);
             row = l.getRow();
